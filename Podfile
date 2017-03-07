@@ -4,9 +4,9 @@ use_frameworks!
 
 target 'ACNoteSwift' do
 
-pod 'Alamofire', '~> 4.0.0'
-pod 'IQKeyboardManagerSwift', '~> 4.0.6'
- pod 'SQLite.swift', :git => 'https://github.com/stephencelis/SQLite.swift.git', :branch => 'swift3-mariotaku’
+pod 'Alamofire', '~> 4.4.0'
+pod 'IQKeyboardManagerSwift', '~> 4.0.8'
+pod 'SQLite.swift', '~> 0.11.2'
 
  
 end

@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.0.0)
+  - IQKeyboardManagerSwift (4.0.6)
+  - SQLite.swift (0.10.1):
+    - SQLite.swift/standard (= 0.10.1)
+  - SQLite.swift/standard (0.10.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.0)
+  - IQKeyboardManagerSwift (~> 4.0.6)
+  - SQLite.swift (from `https://github.com/stephencelis/SQLite.swift.git`, branch `swift3-mariotaku`)
+
+EXTERNAL SOURCES:
+  SQLite.swift:
+    :branch: swift3-mariotaku
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+CHECKOUT OPTIONS:
+  SQLite.swift:
+    :commit: 1ae7acbcb1b59877cf2e034f72f3d411287a4119
+    :git: https://github.com/stephencelis/SQLite.swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+  SQLite.swift: c54b2cb32c2ec77cd52bc7442d05dd51b0623861
+
+PODFILE CHECKSUM: 8feaeba98a66102a69b60356edf588235a0c39cc
+
+COCOAPODS: 1.0.1

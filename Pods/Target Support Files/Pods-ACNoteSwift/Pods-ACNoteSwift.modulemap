@@ -1,0 +1,6 @@
+framework module Pods_ACNoteSwift {
+  umbrella header "Pods-ACNoteSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

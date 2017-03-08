@@ -93,6 +93,7 @@
 		5B822FBE1E6FAE47002835D3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B822FD41E6FCF9B002835D3 /* Expands */,
 				5B822FCD1E6FB011002835D3 /* Account */,
 				5B822FBF1E6FAE47002835D3 /* Template */,
 			);
@@ -221,6 +222,53 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		5B822FD41E6FCF9B002835D3 /* Expands */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FD51E6FCF9B002835D3 /* Base */,
+			);
+			path = Expands;
+			sourceTree = "<group>";
+		};
+		5B822FD51E6FCF9B002835D3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FD61E6FCFAB002835D3 /* Controllers */,
+				5B822FD71E6FCFAB002835D3 /* Models */,
+				5B822FD81E6FCFAB002835D3 /* ViewModels */,
+				5B822FD91E6FCFAB002835D3 /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5B822FD61E6FCFAB002835D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B822FD71E6FCFAB002835D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B822FD81E6FCFAB002835D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5B822FD91E6FCFAB002835D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8F8C81B31D9164B900036834 = {
 			isa = PBXGroup;
 			children = (
@@ -246,10 +294,10 @@
 		8F8C81BE1D9164BA00036834 /* ACNoteSwift */ = {
 			isa = PBXGroup;
 			children = (
+				5B822FBE1E6FAE47002835D3 /* Classes */,
 				5B822FC41E6FAFF6002835D3 /* Configs */,
 				5B822FC61E6FAFF6002835D3 /* Others */,
 				5B822FC81E6FAFF6002835D3 /* Resource */,
-				5B822FBE1E6FAE47002835D3 /* Classes */,
 			);
 			path = ACNoteSwift;
 			sourceTree = "<group>";

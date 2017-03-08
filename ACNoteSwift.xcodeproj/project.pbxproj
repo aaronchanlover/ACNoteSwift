@@ -11,6 +11,7 @@
 		146A8BE119918E0DC367C7E9 /* Pods_ACNoteSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3462ED815A2CC286E5DE6C0A /* Pods_ACNoteSwiftUITests.framework */; };
 		5B822FCB1E6FAFF6002835D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FC51E6FAFF6002835D3 /* Info.plist */; };
 		5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */; };
+		5B822FD31E6FC744002835D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FD21E6FC744002835D3 /* Default-568h@2x.png */; };
 		83B9F370C272D626E3CECB92 /* Pods_ACNoteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91D43B31681ED23C284D8BB /* Pods_ACNoteSwift.framework */; };
 		8F8C81C21D9164BA00036834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C81C11D9164BA00036834 /* ViewController.swift */; };
 		8F8C81C51D9164BA00036834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C81C31D9164BA00036834 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		4DC82A11C0E3B3409F4E93A6 /* Pods-ACNoteSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNoteSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACNoteSwiftUITests/Pods-ACNoteSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B822FC51E6FAFF6002835D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B822FD21E6FC744002835D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		846F3258145B67CCE4BC8970 /* Pods_ACNoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACNoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81BC1D9164BA00036834 /* ACNoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81C11D9164BA00036834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		5B822FC91E6FAFF6002835D3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5B822FD21E6FC744002835D3 /* Default-568h@2x.png */,
 				8F8C81C61D9164BA00036834 /* Assets.xcassets */,
 			);
 			path = Images;
@@ -417,6 +420,7 @@
 				5B822FCB1E6FAFF6002835D3 /* Info.plist in Resources */,
 				8F8C81CA1D9164BA00036834 /* LaunchScreen.storyboard in Resources */,
 				8F8C81C71D9164BA00036834 /* Assets.xcassets in Resources */,
+				5B822FD31E6FC744002835D3 /* Default-568h@2x.png in Resources */,
 				8F8C81C51D9164BA00036834 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

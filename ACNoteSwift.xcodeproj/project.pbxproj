@@ -12,6 +12,10 @@
 		5B822FCB1E6FAFF6002835D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FC51E6FAFF6002835D3 /* Info.plist */; };
 		5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */; };
 		5B822FD31E6FC744002835D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FD21E6FC744002835D3 /* Default-568h@2x.png */; };
+		5B822FE31E717F7F002835D3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FE21E717F7F002835D3 /* MainTabBarController.swift */; };
+		5B822FE51E728BA3002835D3 /* AccountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FE41E728BA3002835D3 /* AccountingViewController.swift */; };
+		5B822FF11E728BF7002835D3 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FF01E728BF7002835D3 /* NoteViewController.swift */; };
+		5B822FF31E728C06002835D3 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FF21E728C06002835D3 /* MeViewController.swift */; };
 		83B9F370C272D626E3CECB92 /* Pods_ACNoteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91D43B31681ED23C284D8BB /* Pods_ACNoteSwift.framework */; };
 		8F8C81C51D9164BA00036834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C81C31D9164BA00036834 /* Main.storyboard */; };
 		8F8C81C71D9164BA00036834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C81C61D9164BA00036834 /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 		5B822FC51E6FAFF6002835D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B822FD21E6FC744002835D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B822FE21E717F7F002835D3 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		5B822FE41E728BA3002835D3 /* AccountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingViewController.swift; sourceTree = "<group>"; };
+		5B822FF01E728BF7002835D3 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		5B822FF21E728C06002835D3 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		846F3258145B67CCE4BC8970 /* Pods_ACNoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACNoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81BC1D9164BA00036834 /* ACNoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81C41D9164BA00036834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +101,9 @@
 		5B822FBE1E6FAE47002835D3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B822FE61E728BEA002835D3 /* Me */,
+				5B822FEB1E728BEA002835D3 /* Note */,
+				5B822FDD1E717F41002835D3 /* Main */,
 				5B822FD41E6FCF9B002835D3 /* Expands */,
 				5B822FCD1E6FB011002835D3 /* Account */,
 				5B822FBF1E6FAE47002835D3 /* Template */,
@@ -197,6 +208,7 @@
 		5B822FCE1E6FB011002835D3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5B822FE41E728BA3002835D3 /* AccountingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -263,6 +275,126 @@
 			sourceTree = "<group>";
 		};
 		5B822FD91E6FCFAB002835D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B822FDD1E717F41002835D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FDE1E717F41002835D3 /* Controllers */,
+				5B822FDF1E717F41002835D3 /* Models */,
+				5B822FE01E717F41002835D3 /* ViewModel */,
+				5B822FE11E717F41002835D3 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5B822FDE1E717F41002835D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FE21E717F7F002835D3 /* MainTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B822FDF1E717F41002835D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B822FE01E717F41002835D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B822FE11E717F41002835D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B822FE61E728BEA002835D3 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FE71E728BEA002835D3 /* Controllers */,
+				5B822FE81E728BEA002835D3 /* Models */,
+				5B822FE91E728BEA002835D3 /* ViewModels */,
+				5B822FEA1E728BEA002835D3 /* Views */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5B822FE71E728BEA002835D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FF21E728C06002835D3 /* MeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B822FE81E728BEA002835D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B822FE91E728BEA002835D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5B822FEA1E728BEA002835D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B822FEB1E728BEA002835D3 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FEC1E728BEA002835D3 /* Controllers */,
+				5B822FED1E728BEA002835D3 /* Models */,
+				5B822FEE1E728BEA002835D3 /* ViewModels */,
+				5B822FEF1E728BEA002835D3 /* Views */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		5B822FEC1E728BEA002835D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B822FF01E728BF7002835D3 /* NoteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B822FED1E728BEA002835D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B822FEE1E728BEA002835D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5B822FEF1E728BEA002835D3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -629,6 +761,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B822FF31E728C06002835D3 /* MeViewController.swift in Sources */,
+				5B822FF11E728BF7002835D3 /* NoteViewController.swift in Sources */,
+				5B822FE31E717F7F002835D3 /* MainTabBarController.swift in Sources */,
+				5B822FE51E728BA3002835D3 /* AccountingViewController.swift in Sources */,
 				5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -784,12 +920,14 @@
 			baseConfigurationReference = 4A92640DC8A0214D5D3C8162 /* Pods-ACNoteSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/ACNoteSwift/Configs/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.ACNoteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -798,12 +936,14 @@
 			baseConfigurationReference = 486200F1A05AB31C9453A884 /* Pods-ACNoteSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "$(SRCROOT)/ACNoteSwift/Configs/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.ACNoteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};

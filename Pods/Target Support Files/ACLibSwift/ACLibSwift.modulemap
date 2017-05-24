@@ -1,0 +1,6 @@
+framework module ACLibSwift {
+  umbrella header "ACLibSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0E2AD7634BB67693C20CE0F2 /* Pods_ACNoteSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F3258145B67CCE4BC8970 /* Pods_ACNoteSwiftTests.framework */; };
 		146A8BE119918E0DC367C7E9 /* Pods_ACNoteSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3462ED815A2CC286E5DE6C0A /* Pods_ACNoteSwiftUITests.framework */; };
+		5B52B7F21ED57B32001FED1D /* AccountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */; };
 		5B822FCB1E6FAFF6002835D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FC51E6FAFF6002835D3 /* Info.plist */; };
 		5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */; };
 		5B822FD31E6FC744002835D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FD21E6FC744002835D3 /* Default-568h@2x.png */; };
-		5B822FE31E717F7F002835D3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FE21E717F7F002835D3 /* MainTabBarController.swift */; };
-		5B822FE51E728BA3002835D3 /* AccountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FE41E728BA3002835D3 /* AccountingViewController.swift */; };
-		5B822FF11E728BF7002835D3 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FF01E728BF7002835D3 /* NoteViewController.swift */; };
-		5B822FF31E728C06002835D3 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FF21E728C06002835D3 /* MeViewController.swift */; };
+		5BA3E3C11ED5732D0063DD5D /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E3A11ED5732D0063DD5D /* Account.storyboard */; };
+		5BA3E3C21ED5732D0063DD5D /* TarBarItemBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E3AF1ED5732D0063DD5D /* TarBarItemBouncesContentView.swift */; };
+		5BA3E3C31ED5732D0063DD5D /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E3B51ED5732D0063DD5D /* Me.storyboard */; };
+		5BA3E3C41ED5732D0063DD5D /* Note.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E3BB1ED5732D0063DD5D /* Note.storyboard */; };
 		83B9F370C272D626E3CECB92 /* Pods_ACNoteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91D43B31681ED23C284D8BB /* Pods_ACNoteSwift.framework */; };
 		8F8C81C51D9164BA00036834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C81C31D9164BA00036834 /* Main.storyboard */; };
 		8F8C81C71D9164BA00036834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C81C61D9164BA00036834 /* Assets.xcassets */; };
@@ -48,13 +49,15 @@
 		486200F1A05AB31C9453A884 /* Pods-ACNoteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNoteSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACNoteSwift/Pods-ACNoteSwift.release.xcconfig"; sourceTree = "<group>"; };
 		4A92640DC8A0214D5D3C8162 /* Pods-ACNoteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNoteSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACNoteSwift/Pods-ACNoteSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		4DC82A11C0E3B3409F4E93A6 /* Pods-ACNoteSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNoteSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACNoteSwiftUITests/Pods-ACNoteSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingViewController.swift; sourceTree = "<group>"; };
 		5B822FC51E6FAFF6002835D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B822FD21E6FC744002835D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5B822FE21E717F7F002835D3 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		5B822FE41E728BA3002835D3 /* AccountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingViewController.swift; sourceTree = "<group>"; };
-		5B822FF01E728BF7002835D3 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
-		5B822FF21E728C06002835D3 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		5BA3E3A11ED5732D0063DD5D /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		5BA3E3AF1ED5732D0063DD5D /* TarBarItemBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TarBarItemBouncesContentView.swift; sourceTree = "<group>"; };
+		5BA3E3B51ED5732D0063DD5D /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		5BA3E3BB1ED5732D0063DD5D /* Note.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Note.storyboard; sourceTree = "<group>"; };
+		5BA3E3C51ED573360063DD5D /* ACNoteSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACNoteSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		846F3258145B67CCE4BC8970 /* Pods_ACNoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACNoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81BC1D9164BA00036834 /* ACNoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81C41D9164BA00036834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,59 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B822FBE1E6FAE47002835D3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5B822FE61E728BEA002835D3 /* Me */,
-				5B822FEB1E728BEA002835D3 /* Note */,
-				5B822FDD1E717F41002835D3 /* Main */,
-				5B822FD41E6FCF9B002835D3 /* Expands */,
-				5B822FCD1E6FB011002835D3 /* Account */,
-				5B822FBF1E6FAE47002835D3 /* Template */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		5B822FBF1E6FAE47002835D3 /* Template */ = {
-			isa = PBXGroup;
-			children = (
-				5B822FC21E6FAE47002835D3 /* Controllers */,
-				5B822FC01E6FAE47002835D3 /* Models */,
-				5B822FC11E6FAE47002835D3 /* ViewModels */,
-				5B822FC31E6FAE47002835D3 /* Views */,
-			);
-			path = Template;
-			sourceTree = "<group>";
-		};
-		5B822FC01E6FAE47002835D3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		5B822FC11E6FAE47002835D3 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		5B822FC21E6FAE47002835D3 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controllers;
-			path = ViewModels/Controllers;
-			sourceTree = "<group>";
-		};
-		5B822FC31E6FAE47002835D3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		5B822FC41E6FAFF6002835D3 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +112,7 @@
 		5B822FC61E6FAFF6002835D3 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3E3C51ED573360063DD5D /* ACNoteSwift-Bridging-Header.h */,
 				8F8C81C81D9164BA00036834 /* LaunchScreen.storyboard */,
 				8F8C81C31D9164BA00036834 /* Main.storyboard */,
 				5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */,
@@ -194,207 +145,276 @@
 			path = Plists;
 			sourceTree = "<group>";
 		};
-		5B822FCD1E6FB011002835D3 /* Account */ = {
+		5BA3E39B1ED5732D0063DD5D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FCE1E6FB011002835D3 /* Controllers */,
-				5B822FCF1E6FB011002835D3 /* Models */,
-				5B822FD01E6FB011002835D3 /* ViewModels */,
-				5B822FD11E6FB011002835D3 /* Views */,
+				5BA3E39C1ED5732D0063DD5D /* Account */,
+				5BA3E3A21ED5732D0063DD5D /* Expands */,
+				5BA3E3AA1ED5732D0063DD5D /* Main */,
+				5BA3E3B01ED5732D0063DD5D /* Me */,
+				5BA3E3B61ED5732D0063DD5D /* Note */,
+				5BA3E3BC1ED5732D0063DD5D /* Template */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BA3E39C1ED5732D0063DD5D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3E39D1ED5732D0063DD5D /* Controllers */,
+				5BA3E39E1ED5732D0063DD5D /* Models */,
+				5BA3E39F1ED5732D0063DD5D /* ViewModels */,
+				5BA3E3A01ED5732D0063DD5D /* Views */,
 			);
 			path = Account;
 			sourceTree = "<group>";
 		};
-		5B822FCE1E6FB011002835D3 /* Controllers */ = {
+		5BA3E39D1ED5732D0063DD5D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FE41E728BA3002835D3 /* AccountingViewController.swift */,
+				5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		5B822FCF1E6FB011002835D3 /* Models */ = {
+		5BA3E39E1ED5732D0063DD5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5B822FD01E6FB011002835D3 /* ViewModels */ = {
+		5BA3E39F1ED5732D0063DD5D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		5B822FD11E6FB011002835D3 /* Views */ = {
+		5BA3E3A01ED5732D0063DD5D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3E3A11ED5732D0063DD5D /* Account.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		5B822FD41E6FCF9B002835D3 /* Expands */ = {
+		5BA3E3A21ED5732D0063DD5D /* Expands */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FD51E6FCF9B002835D3 /* Base */,
+				5BA3E3A31ED5732D0063DD5D /* Base */,
+				5BA3E3A81ED5732D0063DD5D /* Database */,
+				5BA3E3A91ED5732D0063DD5D /* Extensions */,
 			);
 			path = Expands;
 			sourceTree = "<group>";
 		};
-		5B822FD51E6FCF9B002835D3 /* Base */ = {
+		5BA3E3A31ED5732D0063DD5D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FD61E6FCFAB002835D3 /* Controllers */,
-				5B822FD71E6FCFAB002835D3 /* Models */,
-				5B822FD81E6FCFAB002835D3 /* ViewModels */,
-				5B822FD91E6FCFAB002835D3 /* Views */,
+				5BA3E3A41ED5732D0063DD5D /* Controllers */,
+				5BA3E3A51ED5732D0063DD5D /* Models */,
+				5BA3E3A61ED5732D0063DD5D /* ViewModels */,
+				5BA3E3A71ED5732D0063DD5D /* Views */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		5B822FD61E6FCFAB002835D3 /* Controllers */ = {
+		5BA3E3A41ED5732D0063DD5D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		5B822FD71E6FCFAB002835D3 /* Models */ = {
+		5BA3E3A51ED5732D0063DD5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5B822FD81E6FCFAB002835D3 /* ViewModels */ = {
+		5BA3E3A61ED5732D0063DD5D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		5B822FD91E6FCFAB002835D3 /* Views */ = {
+		5BA3E3A71ED5732D0063DD5D /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		5B822FDD1E717F41002835D3 /* Main */ = {
+		5BA3E3A81ED5732D0063DD5D /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FDE1E717F41002835D3 /* Controllers */,
-				5B822FDF1E717F41002835D3 /* Models */,
-				5B822FE01E717F41002835D3 /* ViewModel */,
-				5B822FE11E717F41002835D3 /* Views */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		5BA3E3A91ED5732D0063DD5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5BA3E3AA1ED5732D0063DD5D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3E3AB1ED5732D0063DD5D /* Controllers */,
+				5BA3E3AC1ED5732D0063DD5D /* Models */,
+				5BA3E3AD1ED5732D0063DD5D /* ViewModel */,
+				5BA3E3AE1ED5732D0063DD5D /* Views */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		5B822FDE1E717F41002835D3 /* Controllers */ = {
+		5BA3E3AB1ED5732D0063DD5D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FE21E717F7F002835D3 /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		5B822FDF1E717F41002835D3 /* Models */ = {
+		5BA3E3AC1ED5732D0063DD5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5B822FE01E717F41002835D3 /* ViewModel */ = {
+		5BA3E3AD1ED5732D0063DD5D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		5B822FE11E717F41002835D3 /* Views */ = {
+		5BA3E3AE1ED5732D0063DD5D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3E3AF1ED5732D0063DD5D /* TarBarItemBouncesContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		5B822FE61E728BEA002835D3 /* Me */ = {
+		5BA3E3B01ED5732D0063DD5D /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FE71E728BEA002835D3 /* Controllers */,
-				5B822FE81E728BEA002835D3 /* Models */,
-				5B822FE91E728BEA002835D3 /* ViewModels */,
-				5B822FEA1E728BEA002835D3 /* Views */,
+				5BA3E3B11ED5732D0063DD5D /* Controllers */,
+				5BA3E3B21ED5732D0063DD5D /* Models */,
+				5BA3E3B31ED5732D0063DD5D /* ViewModels */,
+				5BA3E3B41ED5732D0063DD5D /* Views */,
 			);
 			path = Me;
 			sourceTree = "<group>";
 		};
-		5B822FE71E728BEA002835D3 /* Controllers */ = {
+		5BA3E3B11ED5732D0063DD5D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FF21E728C06002835D3 /* MeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		5B822FE81E728BEA002835D3 /* Models */ = {
+		5BA3E3B21ED5732D0063DD5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5B822FE91E728BEA002835D3 /* ViewModels */ = {
+		5BA3E3B31ED5732D0063DD5D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		5B822FEA1E728BEA002835D3 /* Views */ = {
+		5BA3E3B41ED5732D0063DD5D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3E3B51ED5732D0063DD5D /* Me.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		5B822FEB1E728BEA002835D3 /* Note */ = {
+		5BA3E3B61ED5732D0063DD5D /* Note */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FEC1E728BEA002835D3 /* Controllers */,
-				5B822FED1E728BEA002835D3 /* Models */,
-				5B822FEE1E728BEA002835D3 /* ViewModels */,
-				5B822FEF1E728BEA002835D3 /* Views */,
+				5BA3E3B71ED5732D0063DD5D /* Controllers */,
+				5BA3E3B81ED5732D0063DD5D /* Models */,
+				5BA3E3B91ED5732D0063DD5D /* ViewModels */,
+				5BA3E3BA1ED5732D0063DD5D /* Views */,
 			);
 			path = Note;
 			sourceTree = "<group>";
 		};
-		5B822FEC1E728BEA002835D3 /* Controllers */ = {
+		5BA3E3B71ED5732D0063DD5D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FF01E728BF7002835D3 /* NoteViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		5B822FED1E728BEA002835D3 /* Models */ = {
+		5BA3E3B81ED5732D0063DD5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		5B822FEE1E728BEA002835D3 /* ViewModels */ = {
+		5BA3E3B91ED5732D0063DD5D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		5B822FEF1E728BEA002835D3 /* Views */ = {
+		5BA3E3BA1ED5732D0063DD5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3E3BB1ED5732D0063DD5D /* Note.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BA3E3BC1ED5732D0063DD5D /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3E3BD1ED5732D0063DD5D /* Controllers */,
+				5BA3E3BE1ED5732D0063DD5D /* Models */,
+				5BA3E3BF1ED5732D0063DD5D /* ViewModels */,
+				5BA3E3C01ED5732D0063DD5D /* Views */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		5BA3E3BD1ED5732D0063DD5D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5BA3E3BE1ED5732D0063DD5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BA3E3BF1ED5732D0063DD5D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5BA3E3C01ED5732D0063DD5D /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -426,7 +446,7 @@
 		8F8C81BE1D9164BA00036834 /* ACNoteSwift */ = {
 			isa = PBXGroup;
 			children = (
-				5B822FBE1E6FAE47002835D3 /* Classes */,
+				5BA3E39B1ED5732D0063DD5D /* Classes */,
 				5B822FC41E6FAFF6002835D3 /* Configs */,
 				5B822FC61E6FAFF6002835D3 /* Others */,
 				5B822FC81E6FAFF6002835D3 /* Resource */,
@@ -598,6 +618,9 @@
 				8F8C81CA1D9164BA00036834 /* LaunchScreen.storyboard in Resources */,
 				8F8C81C71D9164BA00036834 /* Assets.xcassets in Resources */,
 				5B822FD31E6FC744002835D3 /* Default-568h@2x.png in Resources */,
+				5BA3E3C41ED5732D0063DD5D /* Note.storyboard in Resources */,
+				5BA3E3C11ED5732D0063DD5D /* Account.storyboard in Resources */,
+				5BA3E3C31ED5732D0063DD5D /* Me.storyboard in Resources */,
 				8F8C81C51D9164BA00036834 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,7 +669,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		3B5847F41BF6A9B865BD31AE /* [CP] Copy Pods Resources */ = {
@@ -721,7 +744,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		89CD30A7190DC94323062A78 /* [CP] Embed Pods Frameworks */ = {
@@ -751,7 +774,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -761,11 +784,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B822FF31E728C06002835D3 /* MeViewController.swift in Sources */,
-				5B822FF11E728BF7002835D3 /* NoteViewController.swift in Sources */,
-				5B822FE31E717F7F002835D3 /* MainTabBarController.swift in Sources */,
-				5B822FE51E728BA3002835D3 /* AccountingViewController.swift in Sources */,
 				5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */,
+				5B52B7F21ED57B32001FED1D /* AccountingViewController.swift in Sources */,
+				5BA3E3C21ED5732D0063DD5D /* TarBarItemBouncesContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

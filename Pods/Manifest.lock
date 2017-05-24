@@ -1,18 +1,38 @@
 PODS:
-  - ESTabBarController-swift (2.3)
-  - IQKeyboardManagerSwift (4.0.8)
-  - RAMAnimatedTabBarController (2.1.1)
+  - ACLibSwift/ACTabbarController (0.1.1)
+  - ACLibSwift/QRCode (0.1.1)
+  - Alamofire (4.4.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManagerSwift (4.0.9)
+  - SnapKit (3.2.0)
 
 DEPENDENCIES:
-  - ESTabBarController-swift (~> 2.3)
+  - ACLibSwift/ACTabbarController (from `https://github.com/aaronchanlover/ACLibSwift.git`, tag `0.1.1`)
+  - ACLibSwift/QRCode (from `https://github.com/aaronchanlover/ACLibSwift.git`, tag `0.1.1`)
+  - Alamofire (~> 4.4.0)
+  - FMDB (~> 2.6.2)
   - IQKeyboardManagerSwift (~> 4.0.8)
-  - RAMAnimatedTabBarController (~> 2.1.1)
+  - SnapKit (~> 3.2.0)
+
+EXTERNAL SOURCES:
+  ACLibSwift:
+    :git: https://github.com/aaronchanlover/ACLibSwift.git
+    :tag: 0.1.1
+
+CHECKOUT OPTIONS:
+  ACLibSwift:
+    :git: https://github.com/aaronchanlover/ACLibSwift.git
+    :tag: 0.1.1
 
 SPEC CHECKSUMS:
-  ESTabBarController-swift: 23011ffbee6cd66a37309f00c7c21c9dd63c17de
-  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
-  RAMAnimatedTabBarController: 128e0d71dc802766de575a3c59c6fdcc8e2f921b
+  ACLibSwift: e39db034eacad705243d5148ff338ff0748aae2a
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 78b7b7b3699883bff3d31f28507f28b3c3b75eaa
+PODFILE CHECKSUM: 2411de25c9d73c4bf4df56cfac92fb5316cf6adf
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

@@ -8,7 +8,7 @@
 
 import UIKit
 import IQKeyboardManagerSwift
-
+import ACLibSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,11 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window=UIWindow(frame: UIScreen.main.bounds)
         
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let rootController=sb.instantiateViewController(withIdentifier: "MainTabBarController")
+//        let sb = UIStoryboard(name: "Main", bundle: nil)
+//        let rootController=sb.instantiateViewController(withIdentifier: "MainTabBarController")
         
-        
-        window?.rootViewController=MainTabBarController()
+        window?.rootViewController=tabbarController()
         
         window?.makeKeyAndVisible()
         return true
@@ -58,6 +57,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    
+    /// 获取tabbarcontroller
+    ///
+    /// - Returns: tabbarcontroller
+    public func tabbarController() -> ACTabBarController{
+        
+        let accountViewController=UIStoryboard(name: "Account", bundle: nil).instantiateInitialViewController()!;
+        
+        let noteViewController = UIStoryboard(name: "Note", bundle: nil).instantiateInitialViewController()!
+        
+        let meViewController = UIStoryboard(name: "Me", bundle: nil).instantiateInitialViewController()!
+        
+        let tbc = ACTabBarController.init(tabBarItems: [(accountViewController,TarBarItemBouncesContentView(),"记账", UIImage(named: "icon_tabbar_account"), UIImage(named: "icon_tabbar_account_hightlight")),
+                                                        (noteViewController,TarBarItemBouncesContentView(),"提醒", UIImage(named: "icon_tabbar_note"), UIImage(named: "icon_tabbar_note_hightlight")),
+                                                        (meViewController,TarBarItemBouncesContentView(),"我", UIImage(named: "icon_tabbar_me"), UIImage(named: "icon_tabbar_me_highlight"))])
+        
+        
+        return tbc
+        
+    }
 }
 

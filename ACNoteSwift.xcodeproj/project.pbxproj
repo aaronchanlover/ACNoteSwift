@@ -10,6 +10,7 @@
 		0E2AD7634BB67693C20CE0F2 /* Pods_ACNoteSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F3258145B67CCE4BC8970 /* Pods_ACNoteSwiftTests.framework */; };
 		146A8BE119918E0DC367C7E9 /* Pods_ACNoteSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3462ED815A2CC286E5DE6C0A /* Pods_ACNoteSwiftUITests.framework */; };
 		5B52B7F21ED57B32001FED1D /* AccountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */; };
+		5B52B7F41ED84875001FED1D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52B7F31ED84875001FED1D /* BaseNavigationController.swift */; };
 		5B822FCB1E6FAFF6002835D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FC51E6FAFF6002835D3 /* Info.plist */; };
 		5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */; };
 		5B822FD31E6FC744002835D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FD21E6FC744002835D3 /* Default-568h@2x.png */; };
@@ -50,6 +51,7 @@
 		4A92640DC8A0214D5D3C8162 /* Pods-ACNoteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNoteSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACNoteSwift/Pods-ACNoteSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		4DC82A11C0E3B3409F4E93A6 /* Pods-ACNoteSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNoteSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACNoteSwiftUITests/Pods-ACNoteSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingViewController.swift; sourceTree = "<group>"; };
+		5B52B7F31ED84875001FED1D /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		5B822FC51E6FAFF6002835D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B822FD21E6FC744002835D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 		5BA3E3A41ED5732D0063DD5D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5B52B7F31ED84875001FED1D /* BaseNavigationController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -784,6 +787,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B52B7F41ED84875001FED1D /* BaseNavigationController.swift in Sources */,
 				5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */,
 				5B52B7F21ED57B32001FED1D /* AccountingViewController.swift in Sources */,
 				5BA3E3C21ED5732D0063DD5D /* TarBarItemBouncesContentView.swift in Sources */,

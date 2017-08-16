@@ -1,6 +1,6 @@
 {
   "name": "ACLibSwift",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "summary": "ACLibSwift.",
   "description": "ACLibSwift for swift",
   "homepage": "https://github.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/aaronchanlover/ACLibSwift.git",
-    "tag": "0.1.1"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,6 +26,14 @@
     {
       "name": "ACTabbarController",
       "source_files": "Libs/ACTabbarController/**/*"
+    },
+    {
+      "name": "ACPageView",
+      "source_files": "Libs/ACUtils/**/*"
+    },
+    {
+      "name": "ACUtils",
+      "source_files": "Libs/ACUtils/**/*"
     }
   ]
 }

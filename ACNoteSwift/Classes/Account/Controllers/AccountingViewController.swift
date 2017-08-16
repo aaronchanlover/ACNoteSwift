@@ -33,7 +33,7 @@ class AccountingViewController: UIViewController {
     
 
     @IBAction func addAccountButtonDidClick(_ sender: Any) {
-        navigationController.push
+//        navigationController.push
     }
     
 

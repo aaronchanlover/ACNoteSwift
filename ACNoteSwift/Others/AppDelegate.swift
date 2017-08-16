@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import IQKeyboardManagerSwift
+//import IQKeyboardManagerSwift
 import ACLibSwift
 
 @UIApplicationMain
@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         //设置键盘
-        IQKeyboardManager.sharedManager().enable = true
-        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+//        IQKeyboardManager.sharedManager().enable = true
+//        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
         
         window=UIWindow(frame: UIScreen.main.bounds)
         

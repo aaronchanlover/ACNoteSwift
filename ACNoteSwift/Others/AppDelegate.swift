@@ -19,6 +19,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        //创建sqlite数据库
+        guard (Database.databaseInstance != nil) else {
+            fatalError("could not setup database")
+        }
+        
+        do {
+            try Database.databaseInstance?.migrateIfNeeded()
+        } catch {
+            fatalError("failed to migrate database: \(error)")
+        }
+        
+        print(Database.databaseInstance)
+        
         //设置键盘
 //        IQKeyboardManager.sharedManager().enable = true
 //        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true

@@ -4,9 +4,9 @@ propertyid integer PRIMARY KEY autoincrement,-- 设置主键
 propertyname varchar (50)
 );
 
-INSERT INTO recordtype (propertyname)
+INSERT INTO recordproperty (propertyname)
 VALUES ('收入');
-INSERT INTO recordtype (propertyname)
+INSERT INTO recordproperty (propertyname)
 VALUES ('支出');
 
 --创建记录类型表
@@ -57,23 +57,23 @@ orderno integer
 );
 
 
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (1,'中信信用卡',1);
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (1,'招商信用卡',2);
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (1,'招商银行卡',3);
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (1,'建设银行卡',4);
 
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (2,'余额宝',1);
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (2,'京东',1);
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (2,'苏宁',1);
 
-INSERT INTO recordtype (typeid,accountname,orderno)
+INSERT INTO account (typeid,accountname,orderno)
 VALUES (3,'现金',1);
 
 

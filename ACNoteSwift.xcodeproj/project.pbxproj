@@ -11,8 +11,14 @@
 		146A8BE119918E0DC367C7E9 /* Pods_ACNoteSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3462ED815A2CC286E5DE6C0A /* Pods_ACNoteSwiftUITests.framework */; };
 		5B0A58041F4B045D00FD2AC9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A58031F4B045D00FD2AC9 /* Date.swift */; };
 		5B0A58061F4BDCD800FD2AC9 /* CurrentMonthFeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A58051F4BDCD800FD2AC9 /* CurrentMonthFeeModel.swift */; };
+		5B2C756F1F95AA0D0012FCFC /* AccountDetailOfCurrentMonth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2C756E1F95AA0D0012FCFC /* AccountDetailOfCurrentMonth.xib */; };
+		5B412F2D1F58F020006CB26B /* ValidateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B412F2C1F58F020006CB26B /* ValidateService.swift */; };
+		5B412F2F1F58F083006CB26B /* ProtocolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B412F2E1F58F083006CB26B /* ProtocolTest.swift */; };
+		5B412F311F58FC9B006CB26B /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B412F301F58FC9B006CB26B /* RegisterViewModel.swift */; };
+		5B412F331F58FDD1006CB26B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B412F321F58FDD1006CB26B /* RegisterViewController.swift */; };
 		5B52B7F21ED57B32001FED1D /* AccountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */; };
 		5B52B7F41ED84875001FED1D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52B7F31ED84875001FED1D /* BaseNavigationController.swift */; };
+		5B550D191FADE449002AC0C7 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B550D181FADE449002AC0C7 /* UITableView.swift */; };
 		5B822FCB1E6FAFF6002835D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FC51E6FAFF6002835D3 /* Info.plist */; };
 		5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */; };
 		5B822FD31E6FC744002835D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B822FD21E6FC744002835D3 /* Default-568h@2x.png */; };
@@ -24,7 +30,9 @@
 		5BA3E3C21ED5732D0063DD5D /* TarBarItemBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3E3AF1ED5732D0063DD5D /* TarBarItemBouncesContentView.swift */; };
 		5BA3E3C31ED5732D0063DD5D /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E3B51ED5732D0063DD5D /* Me.storyboard */; };
 		5BA3E3C41ED5732D0063DD5D /* Note.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3E3BB1ED5732D0063DD5D /* Note.storyboard */; };
-		5BC36AF41F47242D002AE2FD /* AccountDBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC36AF31F47242D002AE2FD /* AccountDBViewModel.swift */; };
+		5BC36AF41F47242D002AE2FD /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC36AF31F47242D002AE2FD /* AccountViewModel.swift */; };
+		5BD0FDA91F9626A50014B5D2 /* AccountDetailOfCurrentMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0FDA81F9626A50014B5D2 /* AccountDetailOfCurrentMonth.swift */; };
+		5BF312371F8F2A4100CBD295 /* AccountHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF312361F8F2A4100CBD295 /* AccountHomeModel.swift */; };
 		83B9F370C272D626E3CECB92 /* Pods_ACNoteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91D43B31681ED23C284D8BB /* Pods_ACNoteSwift.framework */; };
 		8F8C81C51D9164BA00036834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C81C31D9164BA00036834 /* Main.storyboard */; };
 		8F8C81C71D9164BA00036834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C81C61D9164BA00036834 /* Assets.xcassets */; };
@@ -59,8 +67,14 @@
 		4DC82A11C0E3B3409F4E93A6 /* Pods-ACNoteSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNoteSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACNoteSwiftUITests/Pods-ACNoteSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B0A58031F4B045D00FD2AC9 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		5B0A58051F4BDCD800FD2AC9 /* CurrentMonthFeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentMonthFeeModel.swift; sourceTree = "<group>"; };
+		5B2C756E1F95AA0D0012FCFC /* AccountDetailOfCurrentMonth.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDetailOfCurrentMonth.xib; sourceTree = "<group>"; };
+		5B412F2C1F58F020006CB26B /* ValidateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateService.swift; sourceTree = "<group>"; };
+		5B412F2E1F58F083006CB26B /* ProtocolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTest.swift; sourceTree = "<group>"; };
+		5B412F301F58FC9B006CB26B /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		5B412F321F58FDD1006CB26B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountingViewController.swift; sourceTree = "<group>"; };
 		5B52B7F31ED84875001FED1D /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		5B550D181FADE449002AC0C7 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		5B822FC51E6FAFF6002835D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B822FC71E6FAFF6002835D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B822FD21E6FC744002835D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -73,7 +87,9 @@
 		5BA3E3B51ED5732D0063DD5D /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
 		5BA3E3BB1ED5732D0063DD5D /* Note.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Note.storyboard; sourceTree = "<group>"; };
 		5BA3E3C51ED573360063DD5D /* ACNoteSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACNoteSwift-Bridging-Header.h"; sourceTree = "<group>"; };
-		5BC36AF31F47242D002AE2FD /* AccountDBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDBViewModel.swift; sourceTree = "<group>"; };
+		5BC36AF31F47242D002AE2FD /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		5BD0FDA81F9626A50014B5D2 /* AccountDetailOfCurrentMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailOfCurrentMonth.swift; sourceTree = "<group>"; };
+		5BF312361F8F2A4100CBD295 /* AccountHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHomeModel.swift; sourceTree = "<group>"; };
 		846F3258145B67CCE4BC8970 /* Pods_ACNoteSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACNoteSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81BC1D9164BA00036834 /* ACNoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C81C41D9164BA00036834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -204,6 +220,7 @@
 		5BA3E39C1ED5732D0063DD5D /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				5BEC0CDB1F5D80CC00047A0C /* Services */,
 				5BA3E39D1ED5732D0063DD5D /* Controllers */,
 				5BA3E39E1ED5732D0063DD5D /* Models */,
 				5BA3E39F1ED5732D0063DD5D /* ViewModels */,
@@ -216,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				5B52B7F11ED57B32001FED1D /* AccountingViewController.swift */,
+				5B412F321F58FDD1006CB26B /* RegisterViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -224,6 +242,8 @@
 			isa = PBXGroup;
 			children = (
 				5B0A58051F4BDCD800FD2AC9 /* CurrentMonthFeeModel.swift */,
+				5B412F2E1F58F083006CB26B /* ProtocolTest.swift */,
+				5BF312361F8F2A4100CBD295 /* AccountHomeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,7 +251,9 @@
 		5BA3E39F1ED5732D0063DD5D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				5BC36AF31F47242D002AE2FD /* AccountDBViewModel.swift */,
+				5BC36AF31F47242D002AE2FD /* AccountViewModel.swift */,
+				5B412F2C1F58F020006CB26B /* ValidateService.swift */,
+				5B412F301F58FC9B006CB26B /* RegisterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -240,6 +262,8 @@
 			isa = PBXGroup;
 			children = (
 				5BA3E3A11ED5732D0063DD5D /* Account.storyboard */,
+				5B2C756E1F95AA0D0012FCFC /* AccountDetailOfCurrentMonth.xib */,
+				5BD0FDA81F9626A50014B5D2 /* AccountDetailOfCurrentMonth.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +330,7 @@
 		5BA3E3A91ED5732D0063DD5D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5B550D181FADE449002AC0C7 /* UITableView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -467,6 +492,13 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5BEC0CDB1F5D80CC00047A0C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		8F8C81B31D9164B900036834 = {
@@ -663,6 +695,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2C756F1F95AA0D0012FCFC /* AccountDetailOfCurrentMonth.xib in Resources */,
 				5B822FCB1E6FAFF6002835D3 /* Info.plist in Resources */,
 				8F8C81CA1D9164BA00036834 /* LaunchScreen.storyboard in Resources */,
 				8F8C81C71D9164BA00036834 /* Assets.xcassets in Resources */,
@@ -746,9 +779,28 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ACNoteSwiftTests/Pods-ACNoteSwiftTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -812,15 +864,29 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ACNoteSwift/Pods-ACNoteSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ACLibSwift/ACLibSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACLibSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -852,15 +918,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF312371F8F2A4100CBD295 /* AccountHomeModel.swift in Sources */,
+				5B412F2D1F58F020006CB26B /* ValidateService.swift in Sources */,
 				5B52B7F41ED84875001FED1D /* BaseNavigationController.swift in Sources */,
 				5B822FCC1E6FAFF6002835D3 /* AppDelegate.swift in Sources */,
-				5BC36AF41F47242D002AE2FD /* AccountDBViewModel.swift in Sources */,
+				5BC36AF41F47242D002AE2FD /* AccountViewModel.swift in Sources */,
 				5B0A58061F4BDCD800FD2AC9 /* CurrentMonthFeeModel.swift in Sources */,
 				5B52B7F21ED57B32001FED1D /* AccountingViewController.swift in Sources */,
 				5B0A58041F4B045D00FD2AC9 /* Date.swift in Sources */,
+				5B412F2F1F58F083006CB26B /* ProtocolTest.swift in Sources */,
+				5B412F311F58FC9B006CB26B /* RegisterViewModel.swift in Sources */,
+				5B412F331F58FDD1006CB26B /* RegisterViewController.swift in Sources */,
+				5B550D191FADE449002AC0C7 /* UITableView.swift in Sources */,
 				5BA17D0B1F45AA610018F719 /* SQLiteMigrationManager.swift in Sources */,
 				5BA17D081F45AA610018F719 /* Database.swift in Sources */,
 				5BA17D091F45AA610018F719 /* SeedDB.swift in Sources */,
+				5BD0FDA91F9626A50014B5D2 /* AccountDetailOfCurrentMonth.swift in Sources */,
 				5BA3E3C21ED5732D0063DD5D /* TarBarItemBouncesContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1019,13 +1092,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 377737UMDN;
 				INFOPLIST_FILE = "$(SRCROOT)/ACNoteSwift/Configs/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.ACNoteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** $(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -1037,13 +1110,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 377737UMDN;
 				INFOPLIST_FILE = "$(SRCROOT)/ACNoteSwift/Configs/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.ACNoteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** $(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

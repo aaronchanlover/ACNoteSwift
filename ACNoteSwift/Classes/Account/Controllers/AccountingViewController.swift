@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import RxDataSources
 
 class AccountingViewController: UIViewController {
-
+    
     @IBOutlet weak var monthOfYearLabel: UILabel!
     
     @IBOutlet weak var incomeForTheMonth: UILabel!
@@ -18,69 +21,87 @@ class AccountingViewController: UIViewController {
     
     @IBOutlet weak var dataTableView: UITableView!
     
+    @IBOutlet weak var addRecordButton: UIButton!
+    
+   
+    
+    
+    
+    var viewModel : AccountViewModel?
+    var disposeBag : DisposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setUI()
+        viewModel = AccountViewModel()
         
         setControls()
+        
+        loadData()
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func addAccountButtonDidClick(_ sender: Any) {
-//        navigationController.push
-    }
     
-
 }
 
 //MARK:- 扩展方法
 extension AccountingViewController{
     
     //MARK:- 设置界面的UI
-    fileprivate func setUI(){
+    fileprivate func loadData(){
         
-        let date = Date()
-        let dateFmt = DateFormatter()
-        dateFmt.dateFormat="MM/yy"
-        let monthOfYear = dateFmt.string(from:  date)
+        viewModel?.income?.asObservable().bind(to: self.incomeForTheMonth.rx.text).disposed(by: disposeBag)
+        viewModel?.pay?.asObservable().bind(to: self.costForTheMonth.rx.text).disposed(by: disposeBag)
+        viewModel?.currentMonth?.asObservable().bind(to: self.monthOfYearLabel.rx.text).disposed(by: disposeBag)
         
-        monthOfYearLabel.text = monthOfYear
+        (self.addRecordButton.rx.tap).asDriver().drive(onNext: {
+                [weak self]  _ in
+                guard let this = self else{
+                    return
+                }
+                this.navigationController?.pushViewController("RegisterRxStoryBoard", storyBoardName: "Account", animated: true)
+        }).disposed(by: disposeBag)
+        
+        
+         self.dataTableView.register(UINib(nibName: "AccountDetailOfCurrentMonth", bundle: nil), forCellReuseIdentifier: AccountDetailOfCurrentMonth.cellID)
+        let dataSource = RxTableViewSectionedReloadDataSource<SectionModel<String, AccountData>>(configureCell: {(ds, tv, index, item) -> AccountDetailOfCurrentMonth in
+                        var cell = tv.dequeueReusableCell(withIdentifier: "Cell") as? AccountDetailOfCurrentMonth
+                        if cell == nil{
+                            cell=AccountDetailOfCurrentMonth(style: .default, reuseIdentifier: "Cell")
+                        }
+            
+//                        let cell=c as! AccountDetailOfCurrentMonth
+                        cell?.dateDescLabel?.text=item.dateDesc
+//                        cell.dateRangeLabel.text=item.dateRange
+//                        cell.incomeLabel.text="\(item.incomeAmount)"
+//                        cell.payLabel.text="\(item.payAmount)"
+            
+            return cell!
+                    })
+        
+        dataSource.titleForHeaderInSection={ ds, index in
+            return ds.sectionModels[index].model
+        }
+        
+        
+        viewModel?.getAccountStatistic()
+            .bind(to: self.dataTableView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)
+        
         
     }
     
     //MARK:- 初始化控件
     fileprivate func setControls(){
-        
-        dataTableView.delegate=self
-        dataTableView.dataSource=self
-    
+        dataTableView.rowHeight=UITableViewAutomaticDimension
+        dataTableView.estimatedRowHeight=20
+        dataTableView.RemoveLastSeprateLine()
     }
 }
 
-//MARK:- UITableView的代理
-extension AccountingViewController:UITableViewDelegate,UITableViewDataSource{
-    @available(iOS 2.0, *)
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
-        return cell
-    }
-
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-    }
-
-}

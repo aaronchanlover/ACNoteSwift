@@ -11,7 +11,7 @@ import UIKit
 class CurrentMonthFeeModel: NSObject {
     var month : String?
     var year : String?
-    var income : Decimal?
-    var pay : Decimal?   
+    var income : Double?
+    var pay : Double?   
     
 }
